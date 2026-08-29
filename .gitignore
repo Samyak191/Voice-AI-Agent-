@@ -1,0 +1,29 @@
+# Environment variables (contains API keys)
+.env
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test scripts (used for debugging, not part of the app)
+backend/test_llm_raw.py
+backend/test_tts_raw.py
